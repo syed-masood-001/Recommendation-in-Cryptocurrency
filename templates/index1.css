@@ -1,0 +1,12 @@
+.bg-main-index{
+    background-image:url('https://res.cloudinary.com/dqrqdhk6g/image/upload/v1677268990/img_amkhhi.jpg');
+    height:100vh;
+ }
+.icon-size-main{
+    height:30px;
+    width:40px
+}
+.icon-size{
+    height:40px;
+    width:50px;
+}
