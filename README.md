@@ -26,7 +26,7 @@ This project is a recommendation system for cryptocurrency prices. It allows use
 
 **index1.css, pass1.css:** CSS files for styling the user interface.
 
-### **How to Run the Project:**
+## **How to Run the Project:**
 Make sure you have Python (version 3.6 or later) and the required libraries (Flask, pandas, numpy, sklearn) installed. You can install them using pip install flask pandas numpy scikit-learn.
 
 Clone or download the project repository.
@@ -37,5 +37,5 @@ Run the following command: python app.py
 
 Open http://127.0.0.1:5000/ in your web browser to access the application.
 
-### **Disclaimer:**
+## **Disclaimer:**
 This project is for educational purposes only and should not be considered financial advice. Cryptocurrency trading involves significant risks, and you should always conduct your own research before making any investment decisions.
