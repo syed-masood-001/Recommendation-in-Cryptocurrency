@@ -22,7 +22,7 @@ def getvalue():
 
 
     def bitcoin():
-        df = pd.read_csv(r"C:\Users\HP\Downloads\BTC-USD (2).csv")
+        df = pd.read_csv(r"C:\Users\HP\Downloads\BTC-USD (8).csv")
 
         df['Date'] = pd.to_datetime(df['Date'])
         df = df.dropna()
@@ -57,7 +57,7 @@ def getvalue():
         return prediction[0]
 
     def eth():
-        df = pd.read_csv(r"C:\Users\HP\Downloads\ETH-USD.csv")
+        df = pd.read_csv(r"C:\Users\HP\Downloads\ETH-USD (2).csv")
         df['Date'] = pd.to_datetime(df['Date'])
         x = df.drop(['Close', 'Date'], axis=1)
         y = df['Close']
@@ -83,7 +83,7 @@ def getvalue():
         return prediction
 
     def usdt():
-        df=pd.read_csv(r"C:\Users\HP\Downloads\USDT-USD.csv")
+        df=pd.read_csv(r"C:\Users\HP\Downloads\USDT-USD (2).csv")
 
         df['Date'] = pd.to_datetime(df['Date'])
 
